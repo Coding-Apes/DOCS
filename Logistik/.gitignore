@@ -1,0 +1,12 @@
+tmp/
+*.toc
+*.out
+*.log
+*.idx
+*.aux
+*.gz
+*.brf
+*.pdf
+*.bbl
+*.bbg
+*.blg
