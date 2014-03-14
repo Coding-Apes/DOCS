@@ -1,0 +1,59 @@
+\subsection{Erkennbare Möglichkeiten von selbststeuernden Prozessen im Beispiel}
+\label{sec:Moeglichkeiten}
+
+Die innerhalb des Beispiels erkannten Möglichkeiten im Bezug auf die Fertigung
+von PKW-Rücklichtern, werden nun konkret betrachtet.
+
+\paragraph{Schnelles reagieren auf sich ändernde Kundenwünsche/ Marktsituationen} \hfill \\
+Im Beispiel ist es möglich sehr schnell auf sich ändernde Kundenwünsche oder
+Marktsituationen innerhalb der Produktion zu reagieren. Sollte der Absatz einer
+Produktvariante oder die Bestellung eines Kunden sich zur Laufzeit der Montage
+ändern, kann auf diese neue Situation sofort reagiert werden. Durch die bereits
+erwähnten RFID-Chips in den Produkten können die Softwareagenten die Produkte
+innerhalb der Produktion reorganisieren. Dies bedeutet, dass alle Produkte
+angepasst an den neuen Auftrag gefertigt werden. Konkret werden halbfertige
+Produkte vom stornierten Auftrag übernommen und mit den gewünschten neuen
+Parametern des aktuellen Auftrags fertiggestellt. Die Abhängigkeiten des
+vorgestellten Variantenkorridors sind hierbei zu beachten. So könnten Produkte,
+die bereits mit weißen Leuchtmitteln ausgestattet sind, nicht mehr mit einer
+durchsichtigen oder schwarzen Blende versehen werden. Wenn im aktuellen Auftrag
+keine PKW-Rücklichter mit weißen Leuchtmitteln gefordert sind, entsteht in
+diesem Fall eine kleine Menge an Ausschussware. Diese könnte in einem
+nachfolgenden Auftrag aber weiter verarbeitet werden.
+
+\paragraph{Lastverteilung} \hfill \\
+Innerhalb des Beispiels ist eine Lastverteilung unter den einzelnen
+Bearbeitungstationen erkennbar. Ist beispielsweise die Bearbeitungsstation der
+Kabelbauminstallation besetzt, entsteht keine Wartezeit für ein anderes Produkt.
+Dieses wird unter Beachtung des Variantenkorridors an einer anderen freie
+Arbeitsstation weiter geleitet, d.h. es wird zuerst das Leuchtmittel oder die
+Dichtung montiert, bevor der Kabelbaum verlegt wird. Denkbar wäre es auch, dass
+somit die unterschiedlichen Bearbeitungszeiten der Stationen ausgeglichen
+werden.
+%TODO: Punkt wird zu kurz Angesprochen??
+
+\paragraph{Verhalten beim kurzfristigen Ausfall einer Bearbeitungstation} \hfill
+\\
+Sollte in dem dargestellten Beispiel eine Station kurzfristig Ausfallen, so
+leiten sich Produkte selbstständig auf eine alternative Station um. Hierbei 
+werden, genau wie bei der Lastverteilung, die Abhängigkeiten aus dem
+Variantenkorridor beachtet. Die gesamte Produktion würde, mit Ausnahme der
+ausgefallenen Arbeitsstation, weitergeführt werden. Während andere
+Montageschritte weiterhin durchlaufen werden, wird die Montagestation instand
+gesetzt. Sobald der Fehler behoben ist, kann die Station wieder in Betrieb
+genommen werden. Diese gliedert sich daraufhin automatisch in den Arbeitsablauf
+ein und kann von den Bauteilen erneut durchlaufen werden.
+
+\paragraph{Fertigung von mehreren Varianten zur Laufzeit} \hfill \\
+Mit dem vorgestellten Beispielprozess ist es möglich verschiedene Varianten des
+PKW-Rücklichtes zeitgleich in einer Produktionsstraße zu produzieren. Die
+Information, welche Module im Produkt verbaut werden, ist direkt an jedem
+einzelnen Rücklicht gespeichert. Hierzu ist in jedem Rücklicht ein RFID-Chip
+eingelassen. Die Informationen werden an den einzelnen Bearbeitungsstationen
+eingelesen und der Maschine / dem Arbeiter angezeigt. Es wird so garantiert,
+dass jedes Produkt der Bestellung entspricht. Hiermit ergibt sich die
+Möglichkeit in dem Beispielprozess alle drei Varianten gleichzeitig
+herzustellen. Denkbar wäre, dass sich das Rücklicht der Variante 1 innerhalb
+der Lampenmontage befindet und das Rücklicht der Variante 2 zeitgleich in der
+Blendenmontage.
+
