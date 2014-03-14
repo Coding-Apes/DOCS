@@ -1,0 +1,114 @@
+\subsection{Vergleich der Möglichkeiten von selbststeuernden Prozessen mit der klassischen Fließfertigung}
+\label{sec:Vergleich_der_Moeglichkeiten}
+
+Die zwei aufgezeigten Prozesse besitzen unterschiedliche Fertigungsweisen sowie
+unterschiedliche Strukturen. Dennoch stellen beide Prozesse das gleiche Produkt
+her. Es soll herausgestellt werden, worin sich die beiden Prozesse in der
+Fertigung von PKW-Rücklichtern unterscheiden. Die im Punkt 3 erarbeiteten
+Möglichkeiten der selbststeuernden Prozesse werden hierbei auf den klassischen
+Prozess bezogen.
+%TODO: Soll hier noch Punkt 3 durch einen Verweis ersetzt werden?
+
+\paragraph{Verhalten beim kurzfristigen Ausfall einer Bearbeitungstation} \hfill
+\\
+Innerhalb der Betrachtung der Möglichkeiten wurde das Verhalten beim Ausfall
+einer Bearbeitungsstation in selbststeuernden Prozessen beschrieben. Die
+Produktion wird weitergeführt und die Produkte werden zu einem späteren
+Zeitpunkt auf der ausgefallenen  Bearbeitungsstation bearbeitet. Wird dieser
+Ausfall einer Bearbeitungsstation innerhalb des klassischen Prozesses der
+Fließfertigung betrachtet, ergibt sich ein Stillstand der gesamten Produktion.
+Dieser begründet sich durch die strenge lineare Reihenfolge der Montageschritte
+innerhalb des Fertigungsprozesses. Fällt hierbei eine Maschine innerhalb der
+Fertigungsstraße aus, so wirkt sich dieser Ausfall unmittelbar auf die gesamte
+Fertigung aus. Die gesamte Produktion kann in diesem Falle erst wieder
+aufgenommen werden, wenn der Ausfall behoben wurde. Wir erkennen hierraus, dass
+selbst steuernde Prozesse besser als statische Prozesse  auf den Ausfall einer
+Bearbeitungsstation reagieren können.
+
+\paragraph{Fertigung von mehreren Varianten zur Laufzeit} \hfill \\
+Eine weitere erkannte Möglichkeit der selbststeuernden Prozesse ist die
+Fertigung von verschiedenen Varianten innerhalb einer Fertigungsstraße. Hierbei
+werden die im Produkt verbauten RFID-Chips als Informationsträger für die
+unterschiedlichen Varianten genutzt. Innerhalb der Fließfertigung werden den
+einzelnen Produkten hingegen keine Informationen mitgegeben und es wird auch
+nicht je Produkt bei der Bearbeitung unterschieden. Um die Fertigung von
+verschiedenen Varianten umsetzen zu können, wird ein Produktionsplan erstellt.
+Bedingt durch diesen Plan werden an den Bearbeitungsstationen die richtigen
+Module pro Produkt verbaut. Somit kann nur eine Variante gleichzeitig
+produziert werden. Anhand dieses Nachteils zum selbststeuernden Prozess
+erkennen wir, dass bei einer Produktion von mehreren Varianten der
+selbststeuernde Prozess flexibler reagieren kann.
+
+
+
+\paragraph{Schnelles reagieren auf sich ändernde Kundenwünsche/
+Marktsituationen} \hfill \\
+Die erkannte Möglichkeit der selbststeuernden Prozesse schnell auf Kundenwünsche
+reagieren zu können, wurde im Zusammenspiel von Softwareagenten und RFID-Chips
+je Produkt umgesetzt. Diese sind in der Lage die Variation eines
+herzustellenden Produktes noch innerhalb der Produktion, je nach Auftrag,
+abzuändern. Innerhalb der klassischen Fließfertigung ist eine Änderung der
+Variation während der Produktion nicht mehr möglich. Die zu produzierende
+Variation sowie die Anzahl wird, wie beschrieben, über den vorher erstellten
+Produktionsplan festgelegt. So ist es nicht möglich diese Variation zur
+Laufzeit der Produktion noch anzupassen, um auf Kundenwünsche oder
+Marktveränderungen zu reagieren. Um große Mengen an Ausschussware verhindern zu
+können, wäre nur ein Stoppen der gesamten Produktion im Fließprozess möglich.
+Durch diese starre Abarbeitung des Produktionsplans ist ein klarer Nachteil des
+klassischen Prozesses im Bezug auf kurzfristige Kundenwünsche erkennbar.
+
+\paragraph{Lastverteilung innerhalb der Produktion} \hfill \\
+Die Lastverteilung innerhalb des selbststeuernden Prozesses wurde ebenfalls als
+Möglichkeit herausgestellt. Im selbststeuernden Prozess können die Produkte die
+Reihenfolge der Arbeitsschritte je nach Maschinenauslastung selbst wählen. Eine
+Neuanordnung der Reihenfolge zur Bearbeitung, würde im klassischen
+Fließfertigungsprozess den Umbau der gesamten Produktionstraße bedeuten. Dies
+wäre durch den hohen Zeitaufwand nicht denkbar und unpraktikabel. Wird nun
+zusätzlich angenommen, dass die Länge der Montageschritte der einzelnen
+Bearbeitungsstationen unterschiedlich ist, wird sich ,bedingt durch die
+Fließfertigung, eine Leerlaufzeit vor einem kürzeren Montageschritt ergeben.
+
+Verdeutlicht wird dies anhand des nachfolgenden Beispiels. Angenommen die
+Montage der Dichtung dauert, aufgrund des etwas höheren Aufwandes, 30 Sekunden
+und der darauf folgende Fertigungsschritt, die Montage der Leuchtmittel, 20
+Sekunden. So würde beim klassischen Prozess ein Rohbauteil durch die
+Dichtungsmontage und danach durch die Leuchtmittelmontage fahren, worauf das
+nächste Rohbauteil direkt folgen und in die Dichtungsmontage fahren würde.
+Während die Fertigungsstation mit der Leuchtmittelmontage nach 20 Sekunden
+fertig ist, benötigt die Dichtungsmontage noch zehn Sekunden zur
+Fertigstellung. Danach erst würde das Rohbauteil zur nächsten Station fahren.
+Somit wären zehn Sekunden bei jedem Rohbauteil nicht effektiv genutzt worden,
+da die Leuchtmittelmontage diese Zeit auf das nächste Teil wartet.
+Innerhalb des selbststeuernden Prozesses können diese Wartezeiten durch die
+dynamische Reihenfolge der Bearbeitungsschritte vermieden werden.
+
+Es wurden die erkannten Möglichkeiten der selbststeuernden Prozesse mit einem
+klassischen Prozess, welcher das gleiche Produkt herstellt, verglichen. Keine
+der erarbeiteten Möglichkeiten konnte innerhalb des statischen Prozesses
+erkannt werden. Anhand dieses Ergebnisses erkennen wir, dass die Fähigkeiten,
+die der selbststeuernde Prozess im Punkt Flexibilität bei kurzfristigen
+Kundenwünschen sowie die Dynamik beim kurzfristigen Maschinenausfall aufweist,
+nicht vom klassischen Prozess abgebildet werden kann. Ein weiterer
+interessanter Aspekt, der sich innerhalb der Untersuchung herausgestellt hat,
+ist die Minimierung der Durchlaufzeit. Hierbei spielen mehrere spezielle
+Fähigkeiten des selbststeuernden Prozesses ineinander. Zum einen wird durch die
+dynamische Reihenfolge der Bearbeitung die Last auf die einzelnen
+Arbeitsschritte verteilt. Zum anderen fallen Rüstzeiten durch die Möglichkeit
+der zeitgleichen Produktion von mehreren Variationen weg.
+
+Durch die genannten Möglichkeiten wird deutlich, dass eine Selbststeuerung der
+Prozesse die Produktion verbessern und einige Vorteile bieten, die die
+klassische Fließfertigung nicht aufweist. Trotz der offensichtlichen Vorteile
+der selbststeuernden Prozesse, setzen nur 15\% der deutschen Unternehmen diese
+ein.\footnote{\url
+http://www.ipl-mag.de/scm-praxis/330-industrie-40-ausblick-in-die-praxis} Die möglichen Gründe für diese Tatsache schätzen wir so ein, dass die meisten Unternehmen noch davor zurückschrecken. Eine Umstrukturierung der
+betrieblichen Fertigungsprozesse zur Selbststeuerung hin, bedeutet für die
+Unternehmen einen hohen Aufwand sowie lange Planungs- und Einführungszeiten.
+ 
+Eine Umstrukturierung bei komplexen Fertigungsprozessen stellt dementsprechend
+einen zeit- und aufwandsintensiven Vorgang dar. Dieser hohe Aufwand resultiert
+in ebenso hohen Kosten. Daher schließen wir, dass die meisten Unternehmen
+entweder den hohen Aufwand sowie die Kosten scheuen oder selbststeuernde
+Prozesse aufgrund von simpler Produktionsprozesse als nicht notwendig
+erscheinen.
+\clearpage
